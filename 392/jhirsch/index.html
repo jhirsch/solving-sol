@@ -1,0 +1,47 @@
+<html>
+  <head>
+
+    <!--
+      Paper.js template for solving a Sol Lewitt instruction.
+
+      Paper.js is a simple way to draw graphics with Canvas. It uses PaperScript,
+      a light abstraction of JavaScript that makes it easy to draw graphics.
+      It's very similar to drawing graphics with ActionScript.
+
+      More about PaperScript: http://paperjs.org/tutorials/getting-started/working-with-paper-js/
+
+      Note: you don't need to use Paper.js for Solving Sol. You can use any library you'd like,
+      or no library at all. The only requirement is that the solution runs in a modern browser.
+
+      If you have another library you like, please submit a template like this one for other folks to use.
+    -->
+
+    <title>Solving Sol</title>
+    <style type="text/css">
+
+      html, body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+      }
+
+      canvas[resize] {
+          width: 100%;
+          height: 100%;
+      }
+
+    </style>
+    <!-- <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.18/paper-full.min.js" ></script> -->
+    <script type="text/javascript" src="../../node_modules/paper/dist/paper-full.min.js" ></script>
+    <script type="text/paperscript" src="./script.js" canvas="solving-sol"></script>
+      
+  </head>
+  <body>
+    <canvas id='solving-sol' resize="true">
+      <!-- Paperscript will draw the graphics here -->
+    </canvas>
+
+  </body>
+</html>
