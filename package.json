@@ -22,5 +22,8 @@
     "gulp": "^3.8.6",
     "gulp-livereload": "^2.1.0",
     "tiny-lr": "0.0.9"
+  },
+  "dependencies": {
+    "paper": "^0.11.5"
   }
 }
